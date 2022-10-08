@@ -1,0 +1,100 @@
+body {
+    font-family: 'Hahmlet', serif;
+    font-size: 25px; 
+    color:beige;
+}
+
+img {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    z-index:-1;
+    animation: fadeIn 0.1s linear;
+}
+
+input {
+    font-family: 'Hahmlet', serif;
+    color:rgb(102, 102, 102);
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 40px;
+    border-color: beige;
+    padding: 5px;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    font-family: 'Gugi', cursive;
+    color: whitesmoke;
+    text-shadow: 5px 5px rgb(158, 152, 152);
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    padding:20px;
+}
+
+h1 {
+    font-family: 'Gugi', cursive;
+    color: whitesmoke;
+    text-shadow: 2px 2px palevioletred;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+ul {
+    margin-left: 40%;
+    color:antiquewhite;
+}
+
+li{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    text-align:left;
+}
+
+li:before{
+    content:'💡';
+    padding: 3px;
+}
+
+button {
+    border:0;
+    background: transparent;
+    margin:5px;
+}
+
+#quote {
+    color: rgb(45, 45, 45);
+    font-size: 15px;
+}
+    
+#todoForm {
+    display: flex;
+    justify-content: space-around;
+}
+
+#login-form {
+    display: flex;
+    justify-content: center;
+}
+
+#weather {
+    padding: 5px;
+    font-size: 20px;
+    color: palevioletred;
+    justify-content: flex-start;
+}
+
+#weather:before{
+    content:'🔆';
+}
